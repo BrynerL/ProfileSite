@@ -1,0 +1,268 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <!-- Title here -->
+    <title>CollectorCorp</title>
+    <!-- Description, Keywords and Author -->
+    <meta name="description" content="Your description">
+    <meta name="keywords" content="Your,Keywords">
+    <meta name="author" content="ResponsiveWebInc">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Styles -->
+    <!-- Bootstrap CSS -->
+    <link href="~/Content/bootstrap.css" rel="stylesheet">
+    <!-- SLIDER REVOLUTION 4.x CSS SETTINGS -->
+    <link rel="stylesheet" href="~/Content/Templates/css/settings.css" media="screen" />
+    <!-- Navigation menu -->
+    <link rel="stylesheet" href="~/Content/Templates/css/ddlevelsmenu-base.css">
+    <link rel="stylesheet" href="~/Content/Templates/css/ddlevelsmenu-topbar.css">
+    <!-- PrettyPhoto -->
+    <link rel="stylesheet" href="~/Content/Templates/css/prettyPhoto.css">
+    <!-- cSlider -->
+    <link rel="stylesheet" href="~/Content/Templates/css/slider.css">
+    <!-- Font awesome CSS -->
+    <link href="~/Content/Templates/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="~/Content/Templates/css/style.css" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="#">
+</head>
+
+<body>
+
+    <!-- Sliding panel starts-->
+
+    <div class="slidepanel">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="spara">
+                        <!-- Contact details -->
+                        <p>
+                            <i class="fa fa-envelope-o lightblue"></i> brynerlawrence@gmail.com &nbsp;
+                            <i class="fa fa-desktop lightblue"></i> 360-951-6346
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="social">
+                        <!-- Social media icons. Repalce # with your profile links -->
+                        <a href="https://www.facebook.com/lawrence.bryner" class="bblue"><i class="fa fa-facebook"></i></a>
+                        <a href="#" class="borange"><i class="fa fa-google-plus"></i></a>
+                        <a href="https://twitter.com/Geekpocalypse" class="blightblue"><i class="fa fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+
+    <!-- Sliding panel ends-->
+    <!-- Header starts -->
+
+    <header>
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-3 col-sm-4">
+
+                    <!-- Logo starts -->
+
+                    <div class="logo">
+
+                        <div class="logo-image">
+                            <!-- Image link -->
+                            <a href="~Home/Index.cshtml"><i class="fa fa-desktop blue"></i></a>
+                        </div>
+
+                        <div class="logo-text">
+                            <h1><a href="index.html">Lawrence<span class="lightblue">Bryner</span></a></h1>
+                            <div class="logo-meta">Software Developer</div>
+                        </div>
+
+                        <div class="clearfix"></div>
+
+                    </div>
+
+                    <!-- Logo ends -->
+
+                </div>
+
+                <div class="col-md-9 col-sm-8">
+
+                    <!-- Navbar starts -->
+
+                    <div class="navi pull-right">
+                        <div id="ddtopmenubar" class="mattblackmenu">
+                            <!-- Main navigation -->
+                            <!-- Use the background color class in anchor tag for colorful menu -->
+                            <ul>
+
+                                <li>
+                                    <a href="~Home/Index.cshtml" rel="ddsubmenu2" class="blightblue"> <i class="fa fa-home"></i> Home</a>
+                                    <ul id="ddsubmenu2" class="ddsubmenustyle"></ul>
+                                </li>
+
+                                <!-- Main navigation -->
+                                <li>
+                                    <a href="/Home/Register.cshtml" rel="ddsubmenu2" class="bred"> <i class="fa fa-desktop"></i> Projects</a>
+                                    <!-- Sub Navigation -->
+                                    <ul id="ddsubmenu2" class="ddsubmenustyle">
+                                        <li><a href="~/Views/Home/Register.cshtml">Register</a></li>
+                                        <li>
+                                            <a href="#">Sub Navigation</a>
+                                            <ul>
+                                                <li><a href="#">Nav Level #3</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <!-- Main navigation -->
+                                <li>
+                                    <a href="#" rel="ddsubmenu2" class="bviolet"> <i class="fa fa-tablet"></i>Personal</a>
+                                    <!-- Sub Navigation -->
+                                    <ul id="ddsubmenu2" class="ddsubmenustyle">
+                                        <li><a href="404.html">404</a></li>
+                                        <li><a href="testimonials.html">Testimonials</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a href="~Home/Contact.html" class="bblue"> <i class="fa fa-envelope-o"></i> Contact</a></li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="navis"></div>
+
+                    <!-- Navbar ends -->
+
+                    <div class="clearfix"></div>
+
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    @RenderBody()
+
+    <footer>
+        <div class="container">
+            <div class="row">
+
+
+                <div class="widgets">
+
+                    <div class="col-md-3">
+                        <div class="fwidget">
+
+                            <h4>Contact</h4>
+
+                            <i class="fa fa-home"></i> &nbsp; Lacey WA 
+                            <hr />
+                            <i class="fa fa-phone"></i> &nbsp; 360.951.6346
+                            <hr />
+                            <i class="fa fa-envelope-o"></i> &nbsp; <a href="mailto:#">brynerlawrence@gmail.com</a>
+                            <hr />
+                            <div class="social">
+                                <a href="#" class="bblue"><i class="fa fa-facebook"></i></a>
+                                <a href="#" class="borange"><i class="fa fa-google-plus"></i></a>
+                                <a href="#" class="blightblue"><i class="fa fa-twitter"></i></a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="fwidget">
+                            <h4>Categories</h4>
+                            <ul>
+                                <li><a href="#">Marvel</a></li>
+                                <li><a href="#">DC Comics</a></li>
+                                <li><a href="#">Movies and TV</a></li>
+                                <li><a href="#">Rare Variations</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="fwidget">
+
+                            <h4>Subscribe</h4>
+                            <p>Stay in the loop and subscribe for all the latest Collector Corps news!!!</p>
+                            <p>Enter you email to Subscribe</p>
+
+                            <form class="form-inline" role="form">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" id="subscribe" placeholder="Subscribe...">
+                                    <span class="input-group-btn">
+                                        <button type="submit" class="btn btn-danger">Subscribe</button>
+                                    </span>
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="fwidget">
+                            <h4>Recent Posts</h4>
+                            <ul>
+                                <li><a href="#">We hit 35000 Members!</a></li>
+                                <li><a href="#">New special editions from SSDC</a></li>
+                                <li><a href="#">Values could be rising soon!</a></li>
+                                <li><a href="#">Photoshop contest!</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="copy">
+                        <p>Copyright &copy; <a href="#">Your Site</a> - <a href="index.html">Home</a> | <a href="aboutus.html">About Us</a> | <a href="faq.html">FAQ</a> | <a href="contactus.html">Contact Us</a></p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </footer>
+
+
+    <!-- Scroll to top -->
+    <span class="totop"><a href="#"><i class="fa fa-angle-up"></i></a></span>
+
+
+    <!-- Javascript files -->
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- prettyPhoto -->
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <!-- isotope -->
+    <script src="js/jquery.isotope.js"></script>
+    <!-- Navigation menu -->
+    <script src="js/ddlevelsmenu.js"></script>
+    <!-- jQuery cSlider / Extra script for cslider -->
+    <script src="js/jquery.cslider.js"></script>
+    <script src="js/modernizr.custom.69985.js"></script>
+    <!-- Support -->
+    <script src="js/filter.js"></script>
+    <!-- Respond JS for IE8 -->
+    <script src="js/respond.min.js"></script>
+    <!-- HTML5 Support for IE -->
+    <script src="js/html5shiv.js"></script>
+    <!-- Custom JS -->
+    <script src="js/custom.js"></script>
+
+</body>
